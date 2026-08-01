@@ -1,0 +1,117 @@
+    body {
+      background-color: #fff8f0;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+    }
+    
+    header {
+      background-color: #800000;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    
+    nav ul li {
+      margin: 10px;
+    }
+    
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 8px 14px;
+      border-radius: 6px;
+    }
+    
+    nav ul li a:hover {
+      background-color: #a52a2a;
+    }
+    
+    main {
+      flex: 1;
+    }
+    
+    .intro {
+      background-color: #fff0e1;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    
+    .intro h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #800000;
+    }
+    
+    .museum-gallery {
+      padding: 30px;
+      background-color: #fffdf8;
+    }
+    
+    .museum-gallery h2 {
+      text-align: center;
+      color: #a52a2a;
+      margin-bottom: 30px;
+    }
+    
+    .museum-item {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    
+    .museum-item img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+    
+    .museum-item img:hover {
+      transform: scale(1.03);
+    }
+    
+    .museum-description {
+      background-color: #fff8f0;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 15px;
+      text-align: left;
+    }
+    
+    footer {
+      background-color: #800000;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    .content-container {
+      background-color: #fffdf8;
+      padding: 30px;
+      margin-bottom: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    .antique-card {
+      transition: all 0.3s ease;
+    }
+    
+    .antique-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
